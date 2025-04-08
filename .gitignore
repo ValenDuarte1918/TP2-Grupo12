@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TP2-Grupo12
+/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1
