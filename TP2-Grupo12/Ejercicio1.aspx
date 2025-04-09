@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="TP2_Grupo12.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ejercicio1.aspx.cs" Inherits="TP2_Grupo12.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -12,10 +12,21 @@
             height: 210px;
         }
         .auto-style2 {
-            width: 236px;
+            width: 177px;
         }
         .auto-style3 {
-            width: 122px;
+            width: 197px;
+        }
+        .auto-style4 {
+            width: 197px;
+            height: 25px;
+        }
+        .auto-style5 {
+            width: 177px;
+            height: 25px;
+        }
+        .auto-style6 {
+            height: 25px;
         }
     </style>
 </head>
@@ -27,20 +38,21 @@
                     <td colspan="7">&nbsp;Ejercicio 1&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style5"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style2">Ingrese nombre del producto:</td>
-                    <td>
-                        <asp:TextBox ID="txtProducto" runat="server"></asp:TextBox>
+                    <td class="auto-style3">Ingrese nombre del producto:</td>
+                    <td class="auto-style2">
+                        <asp:TextBox ID="txtProducto" runat="server" Width="180px"></asp:TextBox>
                     </td>
+                    <td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -56,7 +68,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style3">
+                        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" />
+                    </td>
                     <td class="auto-style2">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -65,7 +79,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style3">
+                        <asp:Label ID="lblTablaProductos" runat="server"></asp:Label>
+                    </td>
                     <td class="auto-style2">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
