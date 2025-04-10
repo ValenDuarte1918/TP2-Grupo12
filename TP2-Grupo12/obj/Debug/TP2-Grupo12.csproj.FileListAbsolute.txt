@@ -59,3 +59,5 @@ C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp2\TP2-Grupo12\TP2-G
 C:\Users\Valen\Desktop\Valen\Universidad\Programacion 3\U1\tp2\TP2-Grupo12\TP2-Grupo12\obj\Debug\TP2-Grupo12.pdb
 C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Programacion\Segundo Año\Programacion 3\TPs\TP2\TP2-Grupo12-master\TP2-Grupo12\obj\Debug\TP2-Grupo12.dll
 C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Programacion\Segundo Año\Programacion 3\TPs\TP2\TP2-Grupo12-master\TP2-Grupo12\obj\Debug\TP2-Grupo12.pdb
+C:\Users\Nacho\Documents\git\TP2-Grupo12\TP2-Grupo12\TP2-Grupo12\obj\Debug\TP2-Grupo12.dll
+C:\Users\Nacho\Documents\git\TP2-Grupo12\TP2-Grupo12\TP2-Grupo12\obj\Debug\TP2-Grupo12.pdb

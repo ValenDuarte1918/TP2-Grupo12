@@ -68,7 +68,7 @@
                     <td class="auto-style10">
                         Cantidad:</td>
                     <td class="auto-style8">
-                        <asp:TextBox ID="txtProducto2" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtCant" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -79,8 +79,11 @@
                     <td class="auto-style2">
                         <asp:TextBox ID="txtProducto1" runat="server" Width="180px"></asp:TextBox>
                     </td>
-                    <td class="auto-style10">&nbsp;</td>
-                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style10">
+                        Cantidad:</td>
+                    <td class="auto-style8">
+                        <asp:TextBox ID="txtCant1" runat="server" Width="180px"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
