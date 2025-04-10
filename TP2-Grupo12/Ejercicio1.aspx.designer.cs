@@ -33,13 +33,13 @@ namespace TP2_Grupo12
         protected global::System.Web.UI.WebControls.TextBox txtProducto;
 
         /// <summary>
-        /// Control txtCant.
+        /// Control txtCantidad.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCant;
+        protected global::System.Web.UI.WebControls.TextBox txtCantidad;
 
         /// <summary>
         /// Control txtProducto1.
@@ -51,13 +51,13 @@ namespace TP2_Grupo12
         protected global::System.Web.UI.WebControls.TextBox txtProducto1;
 
         /// <summary>
-        /// Control txtCant1.
+        /// Control txtCantidad1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCant1;
+        protected global::System.Web.UI.WebControls.TextBox txtCantidad1;
 
         /// <summary>
         /// Control btnGenerarTabla.

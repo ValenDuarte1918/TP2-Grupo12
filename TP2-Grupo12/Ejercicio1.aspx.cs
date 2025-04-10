@@ -18,6 +18,7 @@ namespace TP2_Grupo12
         {
             string tablaObjetos = "<table border='1'>";
             tablaObjetos += "<tr><th>Producto</th><th>Cantidad</th></tr>";
+            tablaObjetos += "<tr><td" + txtProducto.Text + "</td><td>" + txtCantidad.Text + "</td></tr>";
         }
     }
 }
