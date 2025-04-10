@@ -13,5 +13,11 @@ namespace TP2_Grupo12
         {
 
         }
+
+        protected void btnGenerarTabla_Click(object sender, EventArgs e)
+        {
+            string tablaObjetos = "<table border='1'>";
+            tablaObjetos += "<tr><th>Producto</th><th>Cantidad</th></tr>";
+        }
     }
 }

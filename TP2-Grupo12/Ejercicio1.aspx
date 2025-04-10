@@ -90,7 +90,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">
-                        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" />
+                        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" OnClick="btnGenerarTabla_Click" />
                     </td>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style10">&nbsp;</td>
