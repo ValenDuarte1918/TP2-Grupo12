@@ -53,14 +53,21 @@
                         &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style3">Apellido:</td>
                     <td class="auto-style2">
-                        &nbsp;</td>
+                        <asp:TextBox ID="txtApellido" runat="server" Width="180px"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">
-                        &nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
+                        Ciudad:</td>
+                    <td class="auto-style2">
+                        <asp:DropDownList ID="DropDownList1" runat="server">
+                            <asp:ListItem Value="zona norte">Gral Pacheco</asp:ListItem>
+                            <asp:ListItem Value="zona oeste">San Miguel</asp:ListItem>
+                            <asp:ListItem Value="zona sur">Boedo</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">
