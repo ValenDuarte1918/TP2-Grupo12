@@ -30,6 +30,22 @@
             }
         .auto-style10 {
         }
+        .auto-style11 {
+            width: 72px;
+            height: 29px;
+        }
+        .auto-style12 {
+            width: 177px;
+            height: 29px;
+        }
+        .auto-style13 {
+            width: 72px;
+            height: 28px;
+        }
+        .auto-style14 {
+            width: 177px;
+            height: 28px;
+        }
     </style>
 </head>
 <body>
@@ -49,7 +65,7 @@
                     <td class="auto-style2">
                         <asp:TextBox ID="txtNombre" runat="server" Width="180px"></asp:TextBox>
                     </td>
-                    <td class="auto-style10" rowspan="5">
+                    <td class="auto-style10" rowspan="8">
                         &nbsp;</td>
                 </tr>
                 <tr>
@@ -70,13 +86,36 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">
-                        &nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style13">
+                        </td>
+                    <td class="auto-style14"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style13">
+                        Temas:</td>
+                    <td class="auto-style14">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style13">
+                        &nbsp;</td>
+                    <td class="auto-style14">
+                        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                            <asp:ListItem>Ciencias</asp:ListItem>
+                            <asp:ListItem>Literatura</asp:ListItem>
+                            <asp:ListItem>Historia</asp:ListItem>
+                        </asp:CheckBoxList>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style13">
+                        &nbsp;</td>
+                    <td class="auto-style14">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style12">
+                        <asp:Button ID="Button1" runat="server" Text="Ver Resumen" />
+                    </td>
                 </tr>
             </table>
         </div>

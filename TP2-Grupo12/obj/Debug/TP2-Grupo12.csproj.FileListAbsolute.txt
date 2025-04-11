@@ -183,3 +183,5 @@ C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Prog
 C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Programacion\Segundo Año\Programacion 3\TPs\TP2\TP2-Grupo12-master\TP2-Grupo12-master\TP2-Grupo12\obj\Debug\TP2-Grupo12.pdb
 C:\Users\Nacho\Documents\git\TP2-Grupo12\TP2-Grupo12\TP2-Grupo12\obj\Debug\TP2-Grupo12.csproj.AssemblyReference.cache
 C:\Users\Nacho\Documents\git\TP2-Grupo12\TP2-Grupo12\TP2-Grupo12\obj\Debug\TP2-Grupo12.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Programacion\Segundo Año\Programacion 3\TPs\TP2-Grupo12-master\TP2-Grupo12\obj\Debug\TP2-Grupo12.dll
+C:\Users\migue\Documents\Proyectos\Universidad\Tecnicatura Universitaria en Programacion\Segundo Año\Programacion 3\TPs\TP2-Grupo12-master\TP2-Grupo12\obj\Debug\TP2-Grupo12.pdb
