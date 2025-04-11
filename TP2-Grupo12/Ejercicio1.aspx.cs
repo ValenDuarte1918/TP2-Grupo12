@@ -24,7 +24,9 @@ namespace TP2_Grupo12
             
             tablaObjetos += "<tr><td>" + txtProducto2.Text + "</td><td>" + txtCantidad2.Text + "</td></tr>";
 
-            tablaObjetos += "<tr><td>total</td><td>" + (int.Parse(txtCantidad.Text))/*Hay agregar la ultima parte*/ ;
+            tablaObjetos += "<tr><td>total</td><td>" + (int.Parse(txtCantidad.Text)) 
+                + int.Parse(txtCantidad2.Text) + "</td></tr>";
+            tablaObjetos += "</table>";
 
         }
     }
