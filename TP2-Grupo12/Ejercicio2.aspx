@@ -15,50 +15,88 @@
     <title></title>    
     <style type="text/css">
 
+        .auto-style4 {
+            width: 58px;
+        }
+        .auto-style5 {
+            width: 177px;
+            }
+        .auto-style9 {
+            width: 64px;
+        }
+        .auto-style7 {
+            width: 186px;
+        }
         .auto-style1 {
             width: 100%;
             height: 210px;
         }
-        .auto-style2 {
+        .auto-style10 {
             height: 31px;
         }
-        .auto-style3 {
-            height: 109px;
-        }
-        .auto-style4 {
+        .auto-style11 {
+            width: 58px;
             height: 31px;
         }
-        .auto-style5 {
-            height: 109px;
-            width: 73px;
-        }
-        .auto-style6 {
+        .auto-style12 {
+            width: 177px;
             height: 31px;
-            width: 73px;
+        }
+        .auto-style13 {
+            height: 31px;
+            width: 64px;
+        }
+        .auto-style14 {
+            height: 31px;
+            width: 186px;
         }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server">   
             <table class="auto-style1">
                 <tr>
-                    <td colspan="2" class="auto-style4">&nbsp;Ejercicio 2</td>
+                    <td colspan="7" class="auto-style10">Ejercicio 2</td>
                 </tr>
                 <tr>
-                    <td class="auto-style6"></td>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style11"></td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style10"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style6">Nombre:</td>
-                    <td class="auto-style2">
+                    <td class="auto-style11">Nombre:</td>
+                    <td class="auto-style12">
                         <asp:TextBox ID="txtNombre" runat="server" Width="180px"></asp:TextBox>
                     </td>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style10"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style5"></td>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </table>
-        </form>
+    </form>
 </body>
 </html>
