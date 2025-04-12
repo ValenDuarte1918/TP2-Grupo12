@@ -11,8 +11,21 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            width: 142px;
+        .auto-style4 {
+            width: 126px;
+        }
+        .auto-style5 {
+            width: 74px;
+            height: 23px;
+        }
+        .auto-style6 {
+            height: 23px;
+        }
+        .auto-style7 {
+            width: 5px;
+        }
+        .auto-style8 {
+            width: 74px;
         }
     </style>
 </head>
@@ -22,69 +35,106 @@
         </div>
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style8">
+                    &nbsp;</td>
+                <td colspan="2">
                     <asp:Label ID="lblResumen" runat="server" Font-Bold="True" Font-Size="25pt" Text="Resumen"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">Zona:</td>
+                <td class="auto-style4">
+                    <asp:Label ID="lblZona" runat="server" Font-Bold="True"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style8">&nbsp;</td>
+                <td colspan="2">Los temas elegidos son:</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5"></td>
+                <td class="auto-style6" colspan="2">
+                    <asp:Label ID="lblTemasElegidos" runat="server" Font-Bold="True"></asp:Label>
+                </td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td class="auto-style5"></td>
+                <td class="auto-style6" colspan="2"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
             </tr>
         </table>
     </form>

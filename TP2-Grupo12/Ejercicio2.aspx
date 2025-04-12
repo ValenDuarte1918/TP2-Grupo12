@@ -46,6 +46,14 @@
             width: 177px;
             height: 28px;
         }
+        .auto-style15 {
+            width: 72px;
+            height: 26px;
+        }
+        .auto-style16 {
+            width: 177px;
+            height: 26px;
+        }
     </style>
 </head>
 <body>
@@ -71,14 +79,14 @@
                 <tr>
                     <td class="auto-style3">Apellido:</td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtApellido" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtApellidoEj2" runat="server" Width="180px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">
+                    <td class="auto-style15">
                         Ciudad:</td>
-                    <td class="auto-style2">
-                        <asp:DropDownList ID="DropDownList1" runat="server">
+                    <td class="auto-style16">
+                        <asp:DropDownList ID="ddlCiudad" runat="server">
                             <asp:ListItem Value="zona norte">Gral Pacheco</asp:ListItem>
                             <asp:ListItem Value="zona oeste">San Miguel</asp:ListItem>
                             <asp:ListItem Value="zona sur">Boedo</asp:ListItem>
@@ -99,7 +107,7 @@
                     <td class="auto-style13">
                         &nbsp;</td>
                     <td class="auto-style14">
-                        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                        <asp:CheckBoxList ID="cblTemas" runat="server">
                             <asp:ListItem>Ciencias</asp:ListItem>
                             <asp:ListItem>Literatura</asp:ListItem>
                             <asp:ListItem>Historia</asp:ListItem>
@@ -114,7 +122,7 @@
                 <tr>
                     <td class="auto-style11">&nbsp;</td>
                     <td class="auto-style12">
-                        <asp:Button ID="Button1" runat="server" Text="Ver Resumen" />
+                        <asp:Button ID="btnVerResumen" runat="server" Text="Ver Resumen" />
                     </td>
                 </tr>
             </table>
