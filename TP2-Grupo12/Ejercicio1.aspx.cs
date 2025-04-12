@@ -21,14 +21,18 @@ namespace TP2_Grupo12
             string tablaObjetos = "<table border='1'>";
             tablaObjetos += "<tr><th>Producto</th><th>Cantidad</th></tr>";
             
-            tablaObjetos += "<tr><td>" + txtNombre.Text + "</td><td>" + txtCantidad.Text + "</td></tr>";
-            
             tablaObjetos += "<tr><td>" + txtProducto1.Text + "</td><td>" + txtCantidad1.Text + "</td></tr>";
+            
+            tablaObjetos += "<tr><td>" + txtProducto2.Text + "</td><td>" + txtCantidad2.Text + "</td></tr>";
 
-            tablaObjetos += "<tr><td>total</td><td>" + (int.Parse(txtCantidad.Text)) 
-                + int.Parse(txtCantidad1.Text) + "</td></tr>";
+            tablaObjetos += "<tr><td>total</td><td>" + (int.Parse(txtCantidad1.Text) + int.Parse(txtCantidad2.Text))+ "</td></tr>";
             tablaObjetos += "</table>";
 
+            lblTablaProductos.Text = tablaObjetos;
+            txtProducto1.Text = string.Empty;
+            txtProducto2.Text = string.Empty;
+            txtCantidad1.Text = string.Empty;
+            txtCantidad2.Text = string.Empty;
         }
     }
 }

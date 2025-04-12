@@ -62,13 +62,13 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">Ingrese nombre del producto:</td>
-                    <td class="auto-style2">
-                        <asp:TextBox ID="txtProducto" runat="server" Width="180px"></asp:TextBox>
+                    <td class="auto-style2" aria-atomic="False">
+                        <asp:TextBox ID="txtProducto1" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td class="auto-style10">
                         Cantidad:</td>
                     <td class="auto-style8">
-                        <asp:TextBox ID="txtCantidad" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtCantidad1" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -77,12 +77,12 @@
                 <tr>
                     <td class="auto-style3">Ingrese nombre del producto:</td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtProducto1" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtProducto2" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td class="auto-style10">
                         Cantidad:</td>
                     <td class="auto-style8">
-                        <asp:TextBox ID="txtCantidad1" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtCantidad2" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
