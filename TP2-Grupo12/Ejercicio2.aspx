@@ -63,7 +63,7 @@
                 <tr>
                     <td class="auto-style3">Nombre:</td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtNombre" runat="server" Width="180px"></asp:TextBox>
+                        <asp:TextBox ID="txtNombreEj2" runat="server" Width="180px"></asp:TextBox>
                     </td>
                     <td class="auto-style10" rowspan="8">
                         &nbsp;</td>

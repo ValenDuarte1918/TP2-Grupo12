@@ -9,6 +9,7 @@ namespace TP2_Grupo12
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -22,10 +23,10 @@ namespace TP2_Grupo12
             
             tablaObjetos += "<tr><td>" + txtNombre.Text + "</td><td>" + txtCantidad.Text + "</td></tr>";
             
-            tablaObjetos += "<tr><td>" + txtProducto2.Text + "</td><td>" + txtCantidad2.Text + "</td></tr>";
+            tablaObjetos += "<tr><td>" + txtProducto1.Text + "</td><td>" + txtCantidad1.Text + "</td></tr>";
 
             tablaObjetos += "<tr><td>total</td><td>" + (int.Parse(txtCantidad.Text)) 
-                + int.Parse(txtCantidad2.Text) + "</td></tr>";
+                + int.Parse(txtCantidad1.Text) + "</td></tr>";
             tablaObjetos += "</table>";
 
         }
