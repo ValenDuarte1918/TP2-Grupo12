@@ -7,8 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TP2_Grupo12
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class Ejercicio2 : System.Web.UI.Page
     {
-
+        protected void btnVerResumen_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Ejercicio2_Resumen.aspx");
+        }
     }
 }

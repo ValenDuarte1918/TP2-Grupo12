@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ejercicio2.aspx.cs" Inherits="TP2_Grupo12.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ejercicio2.aspx.cs" Inherits="TP2_Grupo12.Ejercicio2" %>
 
 <!DOCTYPE html>
 
@@ -122,7 +122,7 @@
                 <tr>
                     <td class="auto-style11">&nbsp;</td>
                     <td class="auto-style12">
-                        <asp:Button ID="btnVerResumen" runat="server" Text="Ver Resumen" />
+                        <asp:Button ID="btnVerResumen" runat="server" Text="Ver Resumen" OnClick="btnVerResumen_Click" />
                     </td>
                 </tr>
             </table>
