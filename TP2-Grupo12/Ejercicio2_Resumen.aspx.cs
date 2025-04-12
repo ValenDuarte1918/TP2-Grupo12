@@ -11,8 +11,15 @@ namespace TP2_Grupo12
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string nombre = Request.QueryString["Nombre"].ToString();
+            string nombre = Request.QueryString["nombre"].ToString();
+            
+
             lblNombre.Text = nombre;
+
+            string apellido = Request.QueryString["apellido"].ToString();
+            lblApellido.Text = apellido;
+            
+;
 
             if (Session["Zona"] != null)
             {
