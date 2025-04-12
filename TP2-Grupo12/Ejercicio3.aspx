@@ -47,7 +47,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblTextoColoreado" runat="server" Font-Bold="True" Text="Texto Coloreado"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
