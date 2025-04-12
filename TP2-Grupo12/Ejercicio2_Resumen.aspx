@@ -74,8 +74,10 @@
             </tr>
             <tr>
                 <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style7">Nombre:</td>
+                <td class="auto-style4">
+                    <asp:Label ID="lblNombre" runat="server" Font-Bold="True"></asp:Label>
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -83,8 +85,10 @@
             </tr>
             <tr>
                 <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style7">Apellido:</td>
+                <td class="auto-style4">
+                    <asp:Label ID="lblApellido" runat="server" Font-Bold="True"></asp:Label>
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
