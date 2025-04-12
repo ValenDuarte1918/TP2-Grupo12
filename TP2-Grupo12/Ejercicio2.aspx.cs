@@ -11,7 +11,8 @@ namespace TP2_Grupo12
     {
         protected void btnVerResumen_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Ejercicio2_Resumen.aspx?nombre=" + txtNombreEj2.Text + "&apellido=" + txtApellidoEj2.Text);
+            Session["Zona"] = ddlCiudad.SelectedValue;
+            Response.Redirect("Ejercicio2_Resumen.aspx?nombre=" + txtNombreEj2.Text + "&apellido=" + txtApellidoEj2.Text + "&zona=" + ddlCiudad.SelectedValue);
 
         }
 

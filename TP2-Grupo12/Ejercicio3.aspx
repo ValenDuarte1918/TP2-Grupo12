@@ -19,18 +19,22 @@
             <table class="auto-style1">
                 <tr>
                     <td>
-                        <asp:LinkButton ID="lbnRojo" runat="server" OnClick="lbnRojo_Click">Rojo</asp:LinkButton>
+                        <asp:LinkButton ID="btnRojo" runat="server" OnClick="lbnRojo_Click">Rojo</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="btnAzul" runat="server" OnClick="lbnRojo_Click">Azul</asp:LinkButton>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="btnVerde" runat="server" OnClick="lbnRojo_Click">Verde </asp:LinkButton>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>

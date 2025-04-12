@@ -11,7 +11,19 @@ namespace TP2_Grupo12
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string nombre = Request.QueryString["Nombre"].ToString();
+            lblNombre.Text = nombre;
+
+            if (Session["Zona"] != null)
+            {
+                string zona = Session["Zona"].ToString();
+                lblZona.Text = zona;
+            }
+            else
+            {
+                lblZona.Text = "Zona no seleccionada";
+            }
+
         }
     }
 }
