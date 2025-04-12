@@ -13,5 +13,9 @@ namespace TP2_Grupo12
 		{
 
 		}
-	}
+
+        protected void lbnRojo_Click(object sender, EventArgs e)
+        {
+        }
+    }
 }

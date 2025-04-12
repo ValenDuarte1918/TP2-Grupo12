@@ -15,9 +15,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Ejercicio 3&nbsp;&nbsp;&nbsp;
             <table class="auto-style1">
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:LinkButton ID="lbnRojo" runat="server" OnClick="lbnRojo_Click">Rojo</asp:LinkButton>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
