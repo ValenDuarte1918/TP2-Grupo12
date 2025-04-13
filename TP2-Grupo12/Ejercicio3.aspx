@@ -19,7 +19,7 @@
             <table class="auto-style1">
                 <tr>
                     <td>
-                        <asp:LinkButton ID="btnRojo" runat="server" OnClick="lbnRojo_Click">Rojo</asp:LinkButton>
+                        <asp:LinkButton ID="lbnRojo" runat="server" OnClick="lbnRojo_Click" ForeColor="Red">Rojo</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
