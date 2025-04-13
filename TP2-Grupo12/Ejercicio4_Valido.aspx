@@ -48,7 +48,9 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style3">
+                <asp:Button ID="btnVolverAtras" runat="server" Text="Volver Atras" />
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
