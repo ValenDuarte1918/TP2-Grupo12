@@ -7,15 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace TP2_Grupo12
 {
-	public partial class Ejercicio3 : System.Web.UI.Page
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class Ejercicio3 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
+        }
 
         protected void lbnRojo_Click(object sender, EventArgs e)
-		{
+        {
 
         }
 
