@@ -9,7 +9,7 @@ namespace TP2_Grupo12
 {
     public partial class Ejercicio3 : System.Web.UI.Page
     {
-        protected LinkButton lbnVerde;
+        
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,7 +23,7 @@ namespace TP2_Grupo12
 
         protected void lbnAzul_Click(object sender, EventArgs e)
         {
-
+            lblTextoColoreado.ForeColor = System.Drawing.Color.Blue;
         }
         protected void lbnVerde_Click(object sender, EventArgs e)
         {
