@@ -25,6 +25,7 @@ namespace TP2_Grupo12
         }
         protected void lbnVerde_Click(object sender, EventArgs e)
         {
+            lbnVerde.ForeColor = System.Drawing.Color.Black;
             lblTextoColoreado.ForeColor = System.Drawing.Color.Green;
         }
 
