@@ -35,6 +35,10 @@ namespace TP2_Grupo12
         protected void lbnVioleta_Click(object sender, EventArgs e)
         {
 
+            lblTextoColoreado.ForeColor = System.Drawing.Color.Violet;
+            lbnVioleta.ForeColor = System.Drawing.Color.Black;
+
+
         }
     }
 }
