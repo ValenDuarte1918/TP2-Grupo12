@@ -26,21 +26,21 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:LinkButton ID="btnAzul" runat="server" OnClick="lbnRojo_Click">Azul</asp:LinkButton>
+                        <asp:LinkButton ID="lbnAzul" runat="server" OnClick="lbnAzul_Click" ForeColor="Blue">Azul</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:LinkButton ID="btnVerde" runat="server" OnClick="lbnRojo_Click">Verde </asp:LinkButton>
+                        <asp:LinkButton ID="lbnVerde" runat="server" OnClick="lbnVerde_Click" ForeColor="Green">Verde </asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:LinkButton ID="btnVioleta" runat="server" OnClick="lbnRojo_Click">Violeta</asp:LinkButton>
+                        <asp:LinkButton ID="lbnVioleta" runat="server" OnClick="lbnVioleta_Click" ForeColor="Violet">Violeta</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>

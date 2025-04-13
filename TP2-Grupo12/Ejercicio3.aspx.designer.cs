@@ -33,31 +33,31 @@ namespace TP2_Grupo12
         protected global::System.Web.UI.WebControls.LinkButton lbnRojo;
 
         /// <summary>
-        /// btnAzul control.
+        /// lbnAzul control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnAzul;
+        protected global::System.Web.UI.WebControls.LinkButton lbnAzul;
 
         /// <summary>
-        /// btnVerde control.
+        /// lbnVerde control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnVerde;
+        protected global::System.Web.UI.WebControls.LinkButton lbnVerde;
 
         /// <summary>
-        /// btnVioleta control.
+        /// lbnVioleta control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnVioleta;
+        protected global::System.Web.UI.WebControls.LinkButton lbnVioleta;
 
         /// <summary>
         /// lblTextoColoreado control.
