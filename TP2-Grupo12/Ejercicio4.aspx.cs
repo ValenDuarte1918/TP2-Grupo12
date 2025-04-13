@@ -24,8 +24,8 @@ namespace TP2_Grupo12
 
             if (nombreUsuario.ToLower() == usuarios.Text && tbxClave.Text == usuarios.Value)
             {// como en cualquier cuenta de usuario, el nombre de usuario no son keysensitive a mayusculas y minusculas
-                // pero la contraseña si
-             
+             // pero la contraseña si
+                Response.Redirect("Ejercicio4_Valido.aspx");
             }
         }
     }
