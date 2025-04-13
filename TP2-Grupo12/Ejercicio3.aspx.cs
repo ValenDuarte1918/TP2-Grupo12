@@ -9,6 +9,8 @@ namespace TP2_Grupo12
 {
     public partial class Ejercicio3 : System.Web.UI.Page
     {
+        protected LinkButton lbnVerde;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
