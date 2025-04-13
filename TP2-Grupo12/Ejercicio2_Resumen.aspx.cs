@@ -12,14 +12,14 @@ namespace TP2_Grupo12
         protected void Page_Load(object sender, EventArgs e)
         {
             string nombre = Request.QueryString["nombre"].ToString();
-            
+
 
             lblNombre.Text = nombre;
 
             string apellido = Request.QueryString["apellido"].ToString();
             lblApellido.Text = apellido;
-            
-;
+
+            ;
 
             if (Session["Zona"] != null)
             {
@@ -28,9 +28,11 @@ namespace TP2_Grupo12
             }
             else
             {
-                lblZona.Text = "Zona no seleccionada";
+                lblZona.Text = "No seleccionada";
             }
-            
+
+            string temas = Session["Temas"].ToString();
+            lblTemasElegidos.Text = temas;
         }
     }
 }

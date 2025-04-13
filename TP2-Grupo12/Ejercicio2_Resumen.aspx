@@ -12,7 +12,7 @@
             width: 100%;
         }
         .auto-style4 {
-            width: 126px;
+            width: 92px;
         }
         .auto-style5 {
             width: 74px;
@@ -125,9 +125,10 @@
             <tr>
                 <td class="auto-style5"></td>
                 <td class="auto-style6" colspan="2">
+                    &nbsp;</td>
+                <td class="auto-style6">
                     <asp:Label ID="lblTemasElegidos" runat="server" Font-Bold="True"></asp:Label>
                 </td>
-                <td class="auto-style6"></td>
                 <td class="auto-style6"></td>
                 <td class="auto-style6"></td>
                 <td class="auto-style6"></td>

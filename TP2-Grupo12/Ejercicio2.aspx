@@ -17,16 +17,8 @@
         .auto-style3 {
             width: 72px;
         }
-        .auto-style4 {
-            width: 72px;
-            height: 25px;
-        }
-        .auto-style5 {
-            width: 177px;
-            height: 25px;
-        }
         .auto-style9 {
-            height: 25px;
+            height: 20px;
             }
         .auto-style10 {
         }
@@ -54,6 +46,14 @@
             width: 177px;
             height: 26px;
         }
+        .auto-style17 {
+            width: 72px;
+            height: 20px;
+        }
+        .auto-style18 {
+            width: 177px;
+            height: 20px;
+        }
     </style>
 </head>
 <body>
@@ -64,8 +64,8 @@
                     <td colspan="3">&nbsp;Ejercicio 2</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4"></td>
-                    <td class="auto-style5"></td>
+                    <td class="auto-style17"></td>
+                    <td class="auto-style18"></td>
                     <td class="auto-style9"></td>
                 </tr>
                 <tr>
@@ -73,8 +73,9 @@
                     <td class="auto-style2">
                         <asp:TextBox ID="txtNombreEj2" runat="server" Width="180px"></asp:TextBox>
                     </td>
-                    <td class="auto-style10" rowspan="8">
-                        &nbsp;</td>
+                    <td class="auto-style10" rowspan="2">
+                        <asp:Label ID="lblMensajeError" runat="server"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Apellido:</td>
@@ -92,16 +93,20 @@
                             <asp:ListItem Value="zona sur">Boedo</asp:ListItem>
                         </asp:DropDownList>
                     </td>
+                    <td class="auto-style10" rowspan="2">
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style13">
+                    <td class="auto-style3">
                         </td>
-                    <td class="auto-style14"></td>
+                    <td class="auto-style2"></td>
                 </tr>
                 <tr>
                     <td class="auto-style13">
                         Temas:</td>
                     <td class="auto-style14">&nbsp;</td>
+                    <td class="auto-style10">
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style13">
@@ -113,11 +118,16 @@
                             <asp:ListItem>Historia</asp:ListItem>
                         </asp:CheckBoxList>
                     </td>
+                    <td class="auto-style10">
+                        <asp:Label ID="lblMensajeErrorTemas" runat="server"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style13">
                         &nbsp;</td>
                     <td class="auto-style14">&nbsp;</td>
+                    <td class="auto-style10" rowspan="2">
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style11">&nbsp;</td>
