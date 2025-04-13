@@ -12,6 +12,13 @@
         .auto-style2 {
             width: 64px;
         }
+        .auto-style3 {
+            width: 64px;
+            height: 23px;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -50,8 +57,12 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblClave" runat="server" Text="Clave: "></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="tbxClave" runat="server" TextMode="Password"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -68,13 +79,13 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
