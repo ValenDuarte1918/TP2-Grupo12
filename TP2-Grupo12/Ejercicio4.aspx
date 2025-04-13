@@ -71,7 +71,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Button ID="ValidarBtn" runat="server" Text="Validar" />
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -80,7 +82,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3"></td>
-                    <td class="auto-style4"></td>
+                    <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
