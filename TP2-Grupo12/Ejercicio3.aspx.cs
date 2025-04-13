@@ -16,7 +16,6 @@ namespace TP2_Grupo12
 
         protected void lbnRojo_Click(object sender, EventArgs e)
 		{
-            lblTextoColoreado.ForeColor = System.Drawing.Color.Red;
 
         }
 
