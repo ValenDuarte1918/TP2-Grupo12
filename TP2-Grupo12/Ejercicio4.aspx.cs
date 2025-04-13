@@ -23,8 +23,9 @@ namespace TP2_Grupo12
             // tanto el usuario como la contraseña en un mismo objeto
 
             if (nombreUsuario.ToLower() == usuarios.Text && tbxClave.Text == usuarios.Value)
-            {
-                Response.Redirect("Ejercicio4_Valido.aspx");
+            {// como en cualquier cuenta de usuario, el nombre de usuario no son keysensitive a mayusculas y minusculas
+                // pero la contraseña si
+             
             }
         }
     }
