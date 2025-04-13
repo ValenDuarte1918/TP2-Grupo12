@@ -30,7 +30,7 @@ namespace TP2_Grupo12
             {
                 lblZona.Text = "Zona no seleccionada";
             }
-
+            
         }
     }
 }

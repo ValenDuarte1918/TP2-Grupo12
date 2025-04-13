@@ -11,10 +11,25 @@ namespace TP2_Grupo12
     {
         protected void btnVerResumen_Click(object sender, EventArgs e)
         {
-            Session["Zona"] = ddlCiudad.SelectedValue;
-            Response.Redirect("Ejercicio2_Resumen.aspx?nombre=" + txtNombreEj2.Text + "&apellido=" + txtApellidoEj2.Text + "&zona=" + ddlCiudad.SelectedValue);
+
+            string temasSeleccionados = "";
+
+            foreach (ListItem item in cblTemas.Items)
+            {
+                if (item.Selected)
+                {
+                    temasSeleccionados += item.Text + " "; 
+                }
+            }
+
+            Session["Temas"] = temasSeleccionados;
+
+                Session["Zona"] = ddlCiudad.SelectedValue;
+                Response.Redirect("Ejercicio2_Resumen.aspx?nombre=" + txtNombreEj2.Text + "&apellido=" + txtApellidoEj2.Text + "&zona=" + ddlCiudad.SelectedValue);
+
+                Session["Zona"] = ddlCiudad.SelectedValue;
+
+            }
 
         }
-
     }
-}
