@@ -27,6 +27,10 @@ namespace TP2_Grupo12
              // pero la contraseña si
                 Response.Redirect("Ejercicio4_Valido.aspx");
             }
+            else
+            {
+                Response.Redirect("Ejercicio4_Invalido.aspx");
+            }
         }
     }
 }
