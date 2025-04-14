@@ -11,28 +11,43 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 243px;
+            width: 80px;
         }
         .auto-style3 {
-            width: 243px;
+            width: 80px;
             height: 23px;
         }
         .auto-style4 {
             height: 23px;
         }
         .auto-style5 {
-            width: 243px;
+            width: 80px;
             height: 26px;
         }
         .auto-style6 {
             height: 26px;
         }
         .auto-style7 {
-            width: 243px;
+            width: 80px;
             height: 25px;
         }
         .auto-style8 {
             height: 25px;
+        }
+        .auto-style9 {
+            width: 28px;
+        }
+        .auto-style10 {
+            height: 26px;
+            width: 28px;
+        }
+        .auto-style11 {
+            height: 25px;
+            width: 28px;
+        }
+        .auto-style12 {
+            height: 23px;
+            width: 28px;
         }
     </style>
 </head>
@@ -41,11 +56,9 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">
+                    <td colspan="3">
                         <asp:Label ID="lblConfiguracion" runat="server" Font-Bold="True" Font-Size="18pt" Text="Elija su configuración"></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -54,7 +67,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -64,6 +77,8 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
+                        &nbsp;</td>
+                    <td colspan="2">
                         <asp:Label ID="lblMemoria" runat="server" Text="Seleccione cantidad de memoria:"></asp:Label>
                     </td>
                     <td>&nbsp;</td>
@@ -71,15 +86,11 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        <asp:DropDownList ID="EleccionGB" runat="server" Width="130px">
-                        </asp:DropDownList>
-                    </td>
-                    <td>&nbsp;</td>
+                        &nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -89,8 +100,11 @@
                 </tr>
                 <tr>
                     <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style6"></td>
-                    <td class="auto-style6"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style6">
+                        <asp:DropDownList ID="EleccionGB" runat="server" Width="130px">
+                        </asp:DropDownList>
+                    </td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
@@ -99,6 +113,18 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
+                        &nbsp;</td>
+                    <td colspan="2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        &nbsp;</td>
+                    <td colspan="2">
                         <asp:Label ID="lblMemoria0" runat="server" Text="Seleccione accesorios:"></asp:Label>
                     </td>
                     <td>&nbsp;</td>
@@ -106,11 +132,21 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style8"></td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td>
                         <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="148px">
                         </asp:CheckBoxList>
                     </td>
@@ -119,33 +155,11 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style7"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                    <td class="auto-style8"></td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style5"></td>
-                    <td class="auto-style6"></td>
-                    <td class="auto-style6"></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style6">&nbsp;</td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
@@ -154,8 +168,10 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td>
+                        <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" />
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -164,7 +180,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style3"></td>
-                    <td class="auto-style4"></td>
+                    <td class="auto-style12">&nbsp;</td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
@@ -174,7 +190,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -184,10 +200,10 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">
+                        &nbsp;</td>
+                    <td colspan="2">
                         <asp:Label ID="lblPrecioFinal" runat="server"></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -196,7 +212,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
