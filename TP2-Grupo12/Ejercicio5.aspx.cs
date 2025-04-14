@@ -23,7 +23,23 @@ namespace TP2_Grupo12
                 ListItem itemAccesio1 = new ListItem("Monitor LCD", "1");
                 ListItem itemAccesio2 = new ListItem("HD 500GB", "2");
                 ListItem itemAccesio3 = new ListItem("Grabador DVD", "3");
+
+                EleccionGB.Items.Add(itemAccesio1);
+                EleccionGB.Items.Add(itemAccesio2);
+                EleccionGB.Items.Add(itemAccesio3);
             }
         }
-	}
+
+        protected void btnCalcularPrecio_Click(object sender, EventArgs e)
+        {
+            float precioFinal = 0.0f;
+            float GB2 = 200.0f;
+            float GB4 = 500.0f;
+            float GB6 = 1200f;
+
+            float accessorio1 = 2000.50f;
+            float accessorio2 = 500.50f;
+            float accessorio3 = 1200f;
+        }
+    }
 }

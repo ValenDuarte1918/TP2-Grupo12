@@ -170,7 +170,7 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
                     <td>
-                        <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" />
+                        <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" OnClick="btnCalcularPrecio_Click" />
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
