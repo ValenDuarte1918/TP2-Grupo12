@@ -21,7 +21,7 @@ namespace TP2_Grupo12
 
         protected void btnReintentar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Ejercicio4.aspx");
         }
     }
 }
