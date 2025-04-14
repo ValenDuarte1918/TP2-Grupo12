@@ -54,7 +54,13 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:DropDownList ID="EleccionGB" runat="server" Width="130px">
+                            <asp:ListItem>2GB</asp:ListItem>
+                            <asp:ListItem>4GB</asp:ListItem>
+                            <asp:ListItem>6GB</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
