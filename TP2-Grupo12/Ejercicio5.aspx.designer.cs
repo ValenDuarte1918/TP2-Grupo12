@@ -42,13 +42,13 @@ namespace TP2_Grupo12
         protected global::System.Web.UI.WebControls.Label lblMemoria;
 
         /// <summary>
-        /// EleccionGB control.
+        /// ddlCantMemoria control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList EleccionGB;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCantMemoria;
 
         /// <summary>
         /// lblMemoria0 control.

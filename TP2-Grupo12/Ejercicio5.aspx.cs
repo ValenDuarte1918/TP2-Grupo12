@@ -24,9 +24,9 @@ namespace TP2_Grupo12
                 ListItem itemAccesio2 = new ListItem("HD 500GB", "2");
                 ListItem itemAccesio3 = new ListItem("Grabador DVD", "3");
 
-                EleccionGB.Items.Add(itemAccesio1);
-                EleccionGB.Items.Add(itemAccesio2);
-                EleccionGB.Items.Add(itemAccesio3);
+                ddlCantMemoria.Items.Add(itemAccesio1);
+                ddlCantMemoria.Items.Add(itemAccesio2);
+                ddlCantMemoria.Items.Add(itemAccesio3);
             }
         }
 
@@ -40,6 +40,19 @@ namespace TP2_Grupo12
             float accessorio1 = 2000.50f;
             float accessorio2 = 500.50f;
             float accessorio3 = 1200f;
+
+            switch (ddlCantMemoria.SelectedValue)
+            {
+                case "1":
+                    precioFinal += GB2;
+                    break;
+                case "2":
+                    precioFinal += GB4;
+                    break;
+                case "3":
+                    precioFinal += GB6;
+                    break;
+            }   
         }
     }
 }

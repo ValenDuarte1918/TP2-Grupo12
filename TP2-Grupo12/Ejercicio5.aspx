@@ -49,6 +49,21 @@
             height: 23px;
             width: 28px;
         }
+        .auto-style13 {
+            width: 92px;
+        }
+        .auto-style14 {
+            height: 26px;
+            width: 92px;
+        }
+        .auto-style15 {
+            height: 25px;
+            width: 92px;
+        }
+        .auto-style16 {
+            height: 23px;
+            width: 92px;
+        }
     </style>
 </head>
 <body>
@@ -68,7 +83,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style13">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -91,7 +106,7 @@
                     <td class="auto-style2">
                         &nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style13">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -101,8 +116,8 @@
                 <tr>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style10"></td>
-                    <td class="auto-style6">
-                        <asp:DropDownList ID="EleccionGB" runat="server" Width="130px">
+                    <td class="auto-style14">
+                        <asp:DropDownList ID="ddlCantMemoria" runat="server" Width="130px">
                         </asp:DropDownList>
                     </td>
                     <td class="auto-style6"></td>
@@ -136,7 +151,7 @@
                 <tr>
                     <td class="auto-style7">&nbsp;</td>
                     <td class="auto-style11">&nbsp;</td>
-                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style15">&nbsp;</td>
                     <td class="auto-style8"></td>
                     <td class="auto-style8"></td>
                     <td class="auto-style8"></td>
@@ -146,7 +161,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>
+                    <td class="auto-style13">
                         <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="148px">
                         </asp:CheckBoxList>
                     </td>
@@ -159,7 +174,7 @@
                 <tr>
                     <td class="auto-style5"></td>
                     <td class="auto-style10"></td>
-                    <td class="auto-style6">&nbsp;</td>
+                    <td class="auto-style14">&nbsp;</td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
@@ -169,7 +184,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>
+                    <td class="auto-style13">
                         <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" OnClick="btnCalcularPrecio_Click" />
                     </td>
                     <td>&nbsp;</td>
@@ -181,7 +196,7 @@
                 <tr>
                     <td class="auto-style3"></td>
                     <td class="auto-style12">&nbsp;</td>
-                    <td class="auto-style4"></td>
+                    <td class="auto-style16"></td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
@@ -191,7 +206,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style13">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -213,7 +228,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style13">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
