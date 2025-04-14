@@ -11,7 +11,13 @@ namespace TP2_Grupo12
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
-		}
+            if (!IsPostBack)
+            {//me parecio que se podia hacer una asignacion por codigo
+             //de las Memorias y tener una referencia mas reconocible para los siguietnes puntos a traves del 'Value'
+                ListItem ItemMemoria2 = new ListItem("2 GB", "1");
+                ListItem ItemMemoria4 = new ListItem("4 GB", "2");
+                ListItem ItemMemoria8 = new ListItem("6 GB", "3");
+            }
+        }
 	}
 }

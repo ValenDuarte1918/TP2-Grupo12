@@ -13,6 +13,13 @@
         .auto-style2 {
             width: 243px;
         }
+        .auto-style3 {
+            width: 243px;
+            height: 23px;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -56,9 +63,6 @@
                 <tr>
                     <td class="auto-style2">
                         <asp:DropDownList ID="EleccionGB" runat="server" Width="130px">
-                            <asp:ListItem>2GB</asp:ListItem>
-                            <asp:ListItem>4GB</asp:ListItem>
-                            <asp:ListItem>6GB</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                     <td>&nbsp;</td>
@@ -140,14 +144,14 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
+                    <td class="auto-style4"></td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
