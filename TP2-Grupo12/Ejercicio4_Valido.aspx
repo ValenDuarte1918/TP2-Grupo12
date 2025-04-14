@@ -54,13 +54,14 @@
                 &nbsp;</td>
             <td class="auto-style2" style="text-align: center;">
                 <asp:Label ID="lblBienvenido" runat="server" Text="Bienvenido a mi pagina Sr./a:"></asp:Label>
+                <asp:Label ID="lblNombre" runat="server"></asp:Label>
             </td>
             <td class="auto-style4"></td>
         </tr>
         <tr>
             <td class="auto-style5">
                 &nbsp;</td>
-            <td class="auto-style6"></td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style5"></td>
         </tr>
         <tr>

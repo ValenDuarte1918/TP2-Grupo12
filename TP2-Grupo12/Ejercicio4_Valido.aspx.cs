@@ -11,12 +11,18 @@ namespace TP2_Grupo12
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
+            if (Session["Usuario"] != null)
+            {
+                string nombre = Session["Usuario"].ToString();
 
-		}
+                lblNombre.Text =  nombre;
+            }
+        }
 
         protected void lbnCerrarSesion_Click(object sender, EventArgs e)
         {
 			Response.Redirect("Ejercicio4.aspx");
+
         }
     }
 }

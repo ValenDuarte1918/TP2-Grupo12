@@ -11,7 +11,7 @@ namespace TP2_Grupo12
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         protected void ValidarBtn_Click(object sender, EventArgs e)
@@ -25,12 +25,17 @@ namespace TP2_Grupo12
             if (nombreUsuario.ToLower() == usuarios.Text && tbxClave.Text == usuarios.Value)
             {// como en cualquier cuenta de usuario, el nombre de usuario no son keysensitive a mayusculas y minusculas
              // pero la contraseña si
+
+                Session["Usuario"] = nombreUsuario;
+
                 Response.Redirect("Ejercicio4_Valido.aspx");
             }
             else
             {
                 Response.Redirect("Ejercicio4_Invalido.aspx");
             }
+
+            
         }
     }
 }
