@@ -13,5 +13,10 @@ namespace TP2_Grupo12
 		{
 
 		}
-	}
+
+        protected void lbnCerrarSesion_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("Ejercicio4.aspx");
+        }
+    }
 }

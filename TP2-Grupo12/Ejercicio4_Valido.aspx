@@ -12,13 +12,25 @@
         }
         .auto-style2 {
             height: 24px;
+            width: 350px;
         }
         .auto-style3 {
-            width: 532px;
+            width: 240px;
         }
         .auto-style4 {
             height: 24px;
-            width: 532px;
+            width: 240px;
+        }
+        .auto-style5 {
+            width: 240px;
+            height: 23px;
+        }
+        .auto-style6 {
+            height: 23px;
+            width: 350px;
+        }
+        .auto-style7 {
+            width: 350px;
         }
     </style>
 </head>
@@ -27,32 +39,35 @@
     <table class="auto-style1">
         <tr>
             <td class="auto-style3">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style3" style="text-align: right">
+                <asp:LinkButton ID="lbnCerrarSesion" runat="server" ForeColor="#666666" Style="text-decoration: none;" OnClick="lbnCerrarSesion_Click">Cerrar sesión</asp:LinkButton>
+            </td>
         </tr>
         <tr>
             <td class="auto-style3">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style3">&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style4">
+                &nbsp;</td>
+            <td class="auto-style2" style="text-align: center;">
                 <asp:Label ID="lblBienvenido" runat="server" Text="Bienvenido a mi pagina Sr./a:"></asp:Label>
             </td>
-            <td class="auto-style2"></td>
-            <td class="auto-style2"></td>
+            <td class="auto-style4"></td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style5">
+                &nbsp;</td>
+            <td class="auto-style6"></td>
+            <td class="auto-style5"></td>
         </tr>
         <tr>
             <td class="auto-style3">
-                <asp:Button ID="btnVolverAtras" runat="server" Text="Volver Atras" />
-            </td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+                &nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style3">&nbsp;</td>
         </tr>
     </table>
         <div>
