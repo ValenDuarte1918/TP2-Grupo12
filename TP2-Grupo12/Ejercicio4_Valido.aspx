@@ -64,10 +64,10 @@
             <td class="auto-style5"></td>
         </tr>
         <tr>
-            <td class="auto-style3">
-                &nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style5">
+                </td>
+            <td class="auto-style6"></td>
+            <td class="auto-style5"></td>
         </tr>
     </table>
         <div>
