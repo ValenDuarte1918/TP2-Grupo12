@@ -12,7 +12,7 @@
         }
         .auto-style2 {
             height: 24px;
-            width: 350px;
+            width: 563px;
         }
         .auto-style3 {
             width: 240px;
@@ -27,10 +27,21 @@
         }
         .auto-style6 {
             height: 23px;
-            width: 350px;
+            width: 563px;
         }
         .auto-style7 {
-            width: 350px;
+            width: 563px;
+        }
+        .auto-style8 {
+            width: 96px;
+        }
+        .auto-style9 {
+            height: 24px;
+            width: 96px;
+        }
+        .auto-style10 {
+            width: 96px;
+            height: 23px;
         }
     </style>
 </head>
@@ -38,34 +49,33 @@
     <form id="form1" runat="server">
     <table class="auto-style1">
         <tr>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style8">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style3" style="text-align: right">
                 <asp:LinkButton ID="lbnCerrarSesion" runat="server" ForeColor="#666666" Style="text-decoration: none;" OnClick="lbnCerrarSesion_Click">Cerrar sesión</asp:LinkButton>
             </td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style8">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style4">
+            <td class="auto-style9">
                 &nbsp;</td>
             <td class="auto-style2" style="text-align: center;">
-                <asp:Label ID="lblBienvenido" runat="server" Text="Bienvenido a mi pagina Sr./a:"></asp:Label>
-                <asp:Label ID="lblNombre" runat="server"></asp:Label>
+                <asp:Label ID="lblBienvenido" runat="server" Text="Bienvenido a mi pagina Sr./a:" Font-Bold="True" Font-Size="30pt"></asp:Label>
             </td>
-            <td class="auto-style4"></td>
+            <td class="auto-style4">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style5">
+            <td class="auto-style10">
                 &nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style5"></td>
         </tr>
         <tr>
-            <td class="auto-style5">
+            <td class="auto-style10">
                 </td>
             <td class="auto-style6"></td>
             <td class="auto-style5"></td>

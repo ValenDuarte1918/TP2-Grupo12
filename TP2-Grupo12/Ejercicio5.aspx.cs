@@ -19,14 +19,18 @@ namespace TP2_Grupo12
                 ListItem ItemMemoria4 = new ListItem("4 GB", "2");
                 ListItem ItemMemoria8 = new ListItem("6 GB", "3");
 
+                ddlCantMemoria.Items.Add(ItemMemoria2);
+                ddlCantMemoria.Items.Add(ItemMemoria4);
+                ddlCantMemoria.Items.Add(ItemMemoria8);
+
                 // asignacion de los items a la lista 
                 ListItem itemAccesio1 = new ListItem("Monitor LCD", "1");
                 ListItem itemAccesio2 = new ListItem("HD 500GB", "2");
                 ListItem itemAccesio3 = new ListItem("Grabador DVD", "3");
 
-                ddlCantMemoria.Items.Add(itemAccesio1);
-                ddlCantMemoria.Items.Add(itemAccesio2);
-                ddlCantMemoria.Items.Add(itemAccesio3);
+                cblAccesorios.Items.Add(itemAccesio1);
+                cblAccesorios.Items.Add(itemAccesio2);
+                cblAccesorios.Items.Add(itemAccesio3);
             }
         }
 
@@ -54,7 +58,7 @@ namespace TP2_Grupo12
                     break;
             }
 
-            foreach (ListItem item in CblAccesories.Items)
+            foreach (ListItem item in cblAccesorios.Items)
             {
 
                 if (item.Selected)
@@ -72,14 +76,10 @@ namespace TP2_Grupo12
                             break;
                     
                     }
-                
-                
                 }
             }
             lblPrecioFinal.Text = string.Empty;
             lblPrecioFinal.Text += "El precio final es de " + precioFinal.ToString("c");
-
-
         }
     }
 }

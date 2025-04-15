@@ -47,7 +47,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td style="text-align: center;">
-                        <asp:Button ID="Button1" runat="server" Height="20px" Text="Reintentar" Width="100px" OnClick="btnReintentar_Click" />
+                        <asp:Button ID="btnRaintentar" runat="server" Height="20px" Text="Reintentar" Width="100px" OnClick="btnReintentar_Click" />
                     </td>
                     <td class="auto-style3">&nbsp;</td>
                 </tr>

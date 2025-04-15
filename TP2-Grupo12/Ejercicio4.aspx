@@ -46,7 +46,7 @@
                         <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="tbxUsuario" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
                     </td>
                     <td>
                         <asp:Label ID="lblError" runat="server"></asp:Label>
@@ -70,7 +70,7 @@
                         <asp:Label ID="lblClave" runat="server" Text="Clave: "></asp:Label>
                     </td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="tbxClave" runat="server" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox ID="txtClave" runat="server" TextMode="Password"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -91,7 +91,7 @@
                 <tr>
                     <td class="auto-style3"></td>
                     <td class="auto-style6">
-                        <asp:Button ID="ValidarBtn" runat="server" Text="Validar" OnClick="ValidarBtn_Click" />
+                        <asp:Button ID="btnValidar" runat="server" Text="Validar" OnClick="ValidarBtn_Click" />
                     </td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>

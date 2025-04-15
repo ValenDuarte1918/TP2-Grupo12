@@ -16,13 +16,13 @@ namespace TP2_Grupo12
 
         protected void ValidarBtn_Click(object sender, EventArgs e)
         {
-            string nombreUsuario = tbxUsuario.Text;
+            string nombreUsuario = txtUsuario.Text;
             // crei que era una buena idea almacenar a los usuarios en una lista
             ListItem usuarios = new ListItem("claudio", "casas");
             // de esta forma el usuario se encuentra dentro de el ListItem
             // tanto el usuario como la contraseña en un mismo objeto
 
-            if (nombreUsuario.ToLower() == usuarios.Text && tbxClave.Text == usuarios.Value)
+            if (nombreUsuario.ToLowerInvariant() == usuarios.Text && txtClave.Text == usuarios.Value)
             {// como en cualquier cuenta de usuario, el nombre de usuario no son keysensitive a mayusculas y minusculas
              // pero la contraseña si
 

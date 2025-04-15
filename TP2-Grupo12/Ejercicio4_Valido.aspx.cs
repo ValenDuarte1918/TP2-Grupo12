@@ -15,7 +15,7 @@ namespace TP2_Grupo12
             {
                 string nombre = Session["Usuario"].ToString();
 
-                lblNombre.Text =  nombre;
+                lblBienvenido.Text += " " + nombre;
             }
         }
 

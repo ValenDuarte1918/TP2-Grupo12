@@ -162,7 +162,7 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style13">
-                        <asp:CheckBoxList ID="CblAccesories" runat="server" Width="148px">
+                        <asp:CheckBoxList ID="cblAccesorios" runat="server" Width="148px">
                         </asp:CheckBoxList>
                     </td>
                     <td>&nbsp;</td>
