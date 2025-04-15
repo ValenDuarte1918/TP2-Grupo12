@@ -52,7 +52,34 @@ namespace TP2_Grupo12
                 case "3":
                     precioFinal += GB6;
                     break;
-            }   
+            }
+
+            foreach (ListItem item in CblAccesories.Items)
+            {
+
+                if (item.Selected)
+                {
+                    switch (item.Value) 
+                    {
+                        case "1":
+                            precioFinal += accessorio1;
+                            break;
+                        case "2":
+                            precioFinal += accessorio2;
+                            break;
+                        case "3":
+                            precioFinal += accessorio3;
+                            break;
+                    
+                    }
+                
+                
+                }
+            }
+            lblPrecioFinal.Text = string.Empty;
+            lblPrecioFinal.Text += "El precio final es de " + precioFinal.ToString("c");
+
+
         }
     }
 }
