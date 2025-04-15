@@ -15,8 +15,8 @@ namespace TP2_Grupo12
             if (!string.IsNullOrWhiteSpace(txtNombreEj2.Text) && !string.IsNullOrWhiteSpace(txtApellidoEj2.Text))
             {
             string temasSeleccionados = "";
-
-            foreach (ListItem item in cblTemas.Items)
+                lblMensajeError.Text = string.Empty;
+                foreach (ListItem item in cblTemas.Items)
             {
                 if (item.Selected)
                 {
@@ -38,6 +38,7 @@ namespace TP2_Grupo12
                 }
             }else
             {
+                lblMensajeErrorTemas.Text = string.Empty;
                 lblMensajeError.Text = "Por favor, complete todos los campos requeridos.";
             }
         }

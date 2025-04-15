@@ -11,7 +11,7 @@ namespace TP2_Grupo12
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblError.ForeColor = System.Drawing.Color.Red;
         }
 
         protected void ValidarBtn_Click(object sender, EventArgs e)
@@ -32,7 +32,14 @@ namespace TP2_Grupo12
             }
             else
             {
-                Response.Redirect("Ejercicio4_Invalido.aspx");
+                if (nombreUsuario.ToLower() == "claudio")
+                {
+                    Response.Redirect("Ejercicio4_Invalido.aspx");
+                }
+                else
+                {
+                    lblError.Text = "Usuario inexistente";
+                }
             }
 
             

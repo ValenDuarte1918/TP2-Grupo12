@@ -19,6 +19,13 @@
         .auto-style4 {
             height: 23px;
         }
+        .auto-style5 {
+            width: 138px;
+        }
+        .auto-style6 {
+            height: 23px;
+            width: 138px;
+        }
     </style>
 </head>
 <body>
@@ -27,7 +34,7 @@
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -38,10 +45,12 @@
                     <td class="auto-style2">
                         <asp:Label ID="lblUsuario" runat="server" Text="Usuario:"></asp:Label>
                     </td>
-                    <td>
+                    <td class="auto-style5">
                         <asp:TextBox ID="tbxUsuario" runat="server"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="lblError" runat="server"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -49,7 +58,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -60,7 +69,7 @@
                     <td class="auto-style2">
                         <asp:Label ID="lblClave" runat="server" Text="Clave: "></asp:Label>
                     </td>
-                    <td>
+                    <td class="auto-style5">
                         <asp:TextBox ID="tbxClave" runat="server" TextMode="Password"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
@@ -71,9 +80,8 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>
-                        <asp:Button ID="ValidarBtn" runat="server" Text="Validar" OnClick="ValidarBtn_Click" />
-                    </td>
+                    <td class="auto-style5">
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -82,7 +90,9 @@
                 </tr>
                 <tr>
                     <td class="auto-style3"></td>
-                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style6">
+                        <asp:Button ID="ValidarBtn" runat="server" Text="Validar" OnClick="ValidarBtn_Click" />
+                    </td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
                     <td class="auto-style4"></td>
@@ -91,7 +101,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
